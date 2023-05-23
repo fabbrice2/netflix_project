@@ -1,0 +1,17 @@
+.Séries h1{
+    margin-left: 30px;
+    color: white;
+    margin-top: 80px;
+}
+.serie{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.serie img{
+  height: 150px;
+    width: 250px;
+    object-fit: initial;
+    padding: 5px;  
+} 

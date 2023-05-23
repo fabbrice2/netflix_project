@@ -1,0 +1,120 @@
+.connexion__Page{
+    background-image: url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg');
+    background-position: center center;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.page{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+header img{
+    width: 150px;
+    padding: 5px 30px;
+}
+
+.connexion__page__content{
+    padding: 5px 58px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 350px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+}
+
+.top__level{
+    flex-direction: column
+}
+
+.top__level input{
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: gray;
+    background: #333;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.top__level button{
+    width: 351px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: red;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.sub__level{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: gray;
+}
+
+.connexion__Page  ul{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.sub__level ul li:first-child{
+    background: gray;
+    height: 10px;
+    width: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.connexion__Page .material-symbols-outlined{
+    font-size: 16px;
+}
+
+.connexion__Page ul:last-child:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+}
+
+.connexion__Page ul li:first-child{
+    color: gray;
+}
+
+.connexion__Page ul li:last-child:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+}
+
+.page p{
+    color: gray;
+    font-size: 13px;
+}
+
+.page p span{
+    color: rgb(3, 135, 243);
+    cursor: pointer;
+}
+
+.page p span:hover{
+    text-decoration: underline rgb(3, 135, 243);
+}
+
+.no-underline{
+    text-decoration: none;
+  }

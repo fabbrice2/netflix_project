@@ -1,0 +1,49 @@
+.QuickView{
+    position: fixed;
+  z-index: 2;
+  background-color: #111;
+  border-radius: 10px;
+  height: calc(100vh - 40px);
+  top: 40px;
+  overflow-y:  scroll;
+  display: none;
+  margin: 0 2%;
+}
+.QuickView-banner{
+    padding-top: 50vh;
+    height: 50vh;
+    font-size: 1.5rem;
+
+}
+
+.QuickView-content{
+   padding: 3rem;
+   font-size: 1.2rem;
+
+}
+
+.open {
+    display: block;
+}
+
+.QuickView-close{
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width:800px){
+    .QuickView{
+width: 50%;
+left: 25%;
+right: 25%;
+    }
+
+
+} ;
+    

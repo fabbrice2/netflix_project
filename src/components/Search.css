@@ -1,0 +1,50 @@
+.Search{
+    height: 60px;
+    background: black;
+}
+
+.search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 100%;
+    color: white;
+}
+
+.search_box{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search .material-symbols-outlined{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+input{
+    height: 25px;
+    width: 350px;
+    background: transparent;
+    color: grey;
+    padding-left: 10px;
+    font-size:  17px;
+    border: 2px solid blue;
+}
+
+.result{
+    background: black;
+    color: white;
+}
+
+.result img{
+    height: 150px;
+    width: 250px;
+    object-fit: initial;
+    padding: 5px;
+}
+p{
+    margin: 0;
+}
